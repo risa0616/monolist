@@ -1,6 +1,6 @@
 <% content_for :head do %>
-<title>Profile</title>
-<meta name= "description" content= <%= @user %>のプロフィール。>
+<title><%= @user.name %> -Monolist</title>
+<meta name= "description" content= "<%= @user.name %>のプロフィール。">
 <% end %>
 
 <div class="user-profile">
